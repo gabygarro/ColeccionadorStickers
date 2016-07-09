@@ -1,0 +1,28 @@
+
+class Postal:
+    def __init__(self):
+        self.postal=''
+        self.pagina=0
+        self.fila=0
+        self.columna=0
+        self.estado=0
+
+    def setPos(self, p, f, c):
+        self.pagina=p
+        self.fila=f
+        self.columna=c
+
+    def setPostal(self, p):
+        self.postal=tk.ImagePhoto(file='postales/'+p)
+
+    def setEstado(self, e):
+        self.estado=e
+
+    def getEstad0(self):
+        return self.estado
+    
+    def getPos(self):
+        return (self.pagina, self.fila, self.columna)
+    
+    def getPostal(self):
+        return self.postal

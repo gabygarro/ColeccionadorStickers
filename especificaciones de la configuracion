@@ -1,0 +1,13 @@
+los coleccionadores se guardan como dos archivos dentro de su respectiva carpeta
+
+uno de texto plano sin formato que contiene
+1. estado *definitivo o no definitivo
+2. nombre
+3. cantidad de paginas
+4. de filas
+5. de columnas
+
+uno .py dentro del cual se definen dos variables:
+album: es una matriz de matrices que tiene uno en los espacios que corersponden a celdas bloqueadas. este archivo se import algo asi ocmo un modulo para usar esa variable
+
+colorDeFondo: es una tupla de 3 elementos que desribe un color RGB para el fondo del album
